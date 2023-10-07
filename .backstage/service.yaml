@@ -3,3 +3,5 @@ kind: Component
 metadata:
   name: weather-forecast
   description: Weather Forecast
+spec:
+  type: service
