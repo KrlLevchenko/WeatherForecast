@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: weather-forecast
-  description: Weather Forecast  
+  name: weather-forecast-2
+  description: Weather Forecast new 
 spec:
   type: service
   lifecycle: experimental
