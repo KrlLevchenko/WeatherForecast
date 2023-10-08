@@ -6,7 +6,7 @@ metadata:
   annotations:
     backstage.io/view-url: https://some.website/catalog-info.yaml
     backstage.io/edit-url: https://github.com/my-org/catalog/edit/master/my-service.jsonnet
-    has-rfc: "true"
+    has-rfc3: "true"
 spec:
   type: service
   lifecycle: experimental
