@@ -2,7 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: weather-forecast-2
-  description: Weather Forecast refreshed 
+  description: Weather Forecast refreshed
+  annotations:
+    backstage.io/view-url: https://some.website/catalog-info.yaml
+    backstage.io/edit-url: https://github.com/my-org/catalog/edit/master/my-service.jsonnet
+    has-rfc: true
 spec:
   type: service
   lifecycle: experimental
